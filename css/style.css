@@ -24,7 +24,7 @@ body, input {
 main {
     width: 80vw;
     height: 80vh;
-    margin: 10vh 8vw 10vh 12vw;
+    margin: 10vh 8vw;
     display: flex;
     gap: 1vw;
 }
@@ -55,7 +55,8 @@ main {
     line-height: 0.8;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: rgba(255,255,255,0.8)
+    color: rgba(255,255,255,0.8);
+    z-index: -1;
 }
 
 .box {
@@ -207,6 +208,68 @@ main {
     order: 1;
     flex-basis: 35%;
     margin: 10px 0 0;
+}
+
+.alterar {
+    margin-right: 16px;
+    min-width: 35px;
+    min-height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.357);
+}
+
+.alterar:nth-child(1) {
+    border: 2px solid rgb(9, 55, 141);
+    background-color: rgb(144, 176, 236);
+}
+.alterar:nth-child(1):hover {
+    background-color: rgb(33, 87, 187);
+}
+.alterar:nth-child(2) {
+    border: 2px solid rgb(174, 172, 7);
+    background-color: rgb(240, 238, 122);
+}
+.alterar:nth-child(2):hover {
+    background-color: rgb(230, 207, 38);
+}
+.alterar:nth-child(3) {
+    border: 2px solid rgb(129, 142, 159);
+    background-color: rgb(233, 233, 239);
+}
+.alterar:nth-child(3):hover {
+    background-color: rgb(255, 255, 255);
+}
+.alterar:nth-child(4) {
+    border: 2px solid rgb(13, 13, 13);
+    background-color: rgb(139, 137, 137);
+}
+.alterar:nth-child(4):hover {
+    background-color: rgb(80, 80, 80);
+}
+.alterar:nth-child(5) {
+    border: 2px solid rgb(234, 23, 164);
+    background-color: rgb(249, 190, 255);
+}
+.alterar:nth-child(5):hover {
+    background-color: rgb(228, 133, 232);
+}
+.alterar:nth-child(6) {
+    border: 2px solid rgb(197, 10, 10);
+    background-color: rgb(249, 111, 111);
+}
+.alterar:nth-child(6):hover {
+    background-color: rgb(229, 38, 38);
+}
+
+.botoes {
+   right: 5%;
+   bottom: 10%;
+   display: flex;
+   flex-direction: column;
+   padding-top: 20px;
+   z-index: 2;
+   gap: 15px;
 }
 
 @media screen and (max-width: 1600px) {
