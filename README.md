@@ -1,6 +1,6 @@
 # 🤖🌍 Robotron 2000 <a href="https://github.com/Rodolfo-Sampaio/robotron-2000/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/react" alt="NPM" align="right"></a>
 
-A Terra está sob ataque alienígena! Com a orientação do instrutor Pedro Marins, foi desenvolvido o robô, que ao adicionando peças à engrenagem é atualizado as estatísticas em tempo real, durante o curso:
+A Terra está sob ataque alienígena! Com a orientação do instrutor Pedro Marins, foi desenvolvido o robô, que ao adicionar peças à engrenagem é atualizado as estatísticas em tempo real, durante o curso:
 ### JavaScript: manipulando o DOM da [Alura](https://cursos.alura.com.br/course/javascript-manipulando-dom) ⭐
 Explorando DOM, addEventListener(), hoisting, arrow functions, etc.
 
